@@ -6,12 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <style type="text/css">
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 599px) {
       table.container {
-        width: 580px !important;
+        width: 100% !important;
     }
 
   }
+
+  @media only screen and (max-width: 480px){
+    #templateColumns{
+        width:100% !important;
+    }
+
+    .templateColumnContainer{
+        display:block !important;
+        width:100% !important;
+    }
+
+    .columnImage{
+        height:auto !important;
+        max-width:480px !important;
+        width:100% !important;
+    }
+
+    .leftColumnContent{
+        font-size:16px !important;
+        line-height:125% !important;
+    }
+
+    .rightColumnContent{
+        font-size:16px !important;
+        line-height:125% !important;
+    }
+}
 
 /*https://templates.mailchimp.com/development/responsive-email/responsive-column-layouts/*/
 
@@ -35,7 +62,7 @@
            <tr>
             <td bgcolor="#F9F9F9" style="padding: 40px 20px 40px 20px;">
               <table cellpadding="0" cellspacing="0" width="100%" border="0">
-                <!-- <tr>
+                <tr>
                  <td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
                   <b>Felis pede praesent potenti consequatur</b>
                  </td>
@@ -44,10 +71,10 @@
                  <td style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
                    Convallis tincidunt odio, nibh vel. Mi integer turpis pellentesque, wisi platea nibh risus lacus aliquet augue, sem sagittis ante dolor labore. Convallis vestibulum erat, vehicula sed massa sapien. </br>Suscipit sagittis aenean non sapien sapien, sapien sapien quam, eu etiam arcu gravida egestas. Justo morbi, sem hymenaeos pede morbi ipsum magna sed, nunc orci orci in semper, ultricies lacus fames scelerisque dignissim at augue, justo ultricies ut adipiscing habitasse.
                  </td>
-                </tr> -->
+                </tr>
                 <tr>
                  <td>
-                   <!-- <table cellpadding="0" cellspacing="0" border="0" id="templateColumns">
+                   <table cellpadding="0" cellspacing="0" border="0" id="templateColumns">
                     <tr>
                      <td align="center" valign="top" class="templateColumnContainer">
                        <table border="0" cellpadding="10" cellspacing="0" width="100%">
@@ -103,7 +130,7 @@
                        </table>
                      </td>
                     </tr>
-                   </table> -->
+                   </table>
                  </td>
                 </tr>
                </table>
